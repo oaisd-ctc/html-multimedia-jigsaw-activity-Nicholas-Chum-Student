@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Sample</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(data:image/jpeg;base64,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);
+        }
+
+        * {
+            margin-bottom: 25px;
+        }
+
+        .svg1 {
+            padding-left: 50px;
+        }
+
+        video,
+        audio,
+        iframe {
+            border: solid 2px lightgreen
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Multimedia Demonstration</h1>
+
+    <h3>Video Element</h3>
+
+    <video width="640" height="240" controls>
+        <source src="./Media/Raindrops_Videvo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+
+    <h3>Audio Element</h3>
+
+    <audio controls>
+        <source src="./Media/mixaund-feel.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+
+
+    <h3>Inline Frame Element</h3>
+
+    <iframe src="https://example.com" height="400" width="1000" name="Google Classroom">Your browser does not
+        support iframes.</iframe>
+
+
+
+    <h3>Canvas Element</h3>
+
+    <canvas width="150" height="80" style="background: gray">Your browser does not support the HTML5 canvas
+        tag.</canvas>
+
+    <h3>SVG Element</h3>
+
+    <svg width="200" height="100">
+        <circle cx="100" cy="50" r="40" fill=red stroke="black" stroke-width="2"></circle>
+    </svg>
+    <br>
+    <svg width="200" height="100">
+        <rect width="200" height="100" style="fill:darkcyan; stroke: width 3px; stroke:black"></rect>
+    </svg>
+    <br>
+    <svg width="200" height="100">
+        <ellipse cx="100" cy="50" rx="90" ry="35" style="fill:aquamarine; stroke:black; stroke: width 3px;">
+        </ellipse>
+    </svg>
+    <br>
+    <svg width="200" height="100">
+        <line y1="0" x1="0" y2="100" x2="200" style="stroke:gray;stroke: width 10px;"></line>
+    </svg>
+    <br>
+    <svg width="200" height="100">
+        <polygon points="100,0 0,50 200,50" style="fill:yellow; stroke:black; stroke: width 3px;"></polygon>
+    </svg>
+
+
+</body>
+
+</html>
